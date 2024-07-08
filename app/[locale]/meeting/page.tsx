@@ -109,7 +109,7 @@ const getData = async () => {
       fragment AgendaEventFields on AgendaEvent {
         name
         start
-        status
+        idList
         participants
         labels
         eventId

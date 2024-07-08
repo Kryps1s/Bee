@@ -152,7 +152,7 @@ export interface Category{
 }
 export interface Task{
   eventId: string;
-  status: string;
+  idList: string;
   labels: string[];
   name: string;
   participants: string[];
